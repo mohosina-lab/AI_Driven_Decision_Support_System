@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
-title Customer Change Request Simulator - Version 2
+title Sales and Production Order Simulator - Version 7.4
 if exist "venv\Scripts\python.exe" goto check_package
 echo Creating the project Python environment...
 py -m venv venv
